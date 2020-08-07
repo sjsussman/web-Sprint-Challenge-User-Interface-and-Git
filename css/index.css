@@ -129,41 +129,26 @@ p {
 /*my content*/
 
 .header {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: start; */
     margin: 1% 5%;
     display: inline-block;
 }
 
 .header nav{
-    /* margin-left: 50%;
-    border: 2px solid red; */
-    width:100%;
     padding: 20px 2%;
     font-size: 14px;
-    display: inline-block;
+    display: inline;
+    margin: 0 auto;
+    
 }
 
 .header nav a{
     padding: 0 2%;
-    border: 2px solid blue;
     color: black;
     text-decoration: none;
+    display: inline-block;
+    margin: 0 4%;
 
 }
-
-/* footer nav {
-    width: 100%;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0 4%;
-} */
 
 #jumbo {
     width: 100%;
@@ -224,14 +209,14 @@ footer nav a {
 .aboutPage{
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 2%;
+    padding: 0 3% 3% 3%;
 }
 
 .section1 {
     display: flex;
     width: 90%;
     border-top: 2px dashed black;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     padding: 5%;
 
@@ -254,14 +239,7 @@ footer nav a {
     padding: 5%;
 
 }
-.section2 img{
-    width: 200px;
-    height: 200px;
-}
-.container2b {
-    display: flex;
-    align-items: ;
-}
+
 
 .container2 h2{
     padding-top: 2%;
