@@ -131,6 +131,8 @@ p {
 .header {
     margin: 1% 5%;
     display: inline-block;
+    width: 800px;
+    margin-left: 20%;
 }
 
 .header nav{
@@ -146,7 +148,7 @@ p {
     color: black;
     text-decoration: none;
     display: inline-block;
-    margin: 0 4%;
+    margin: 0 3%;
 
 }
 
@@ -207,7 +209,7 @@ p {
 
 
 .aboutPage{
-    width: 90%;
+    width: 800px;
     margin: 0 auto;
     padding: 0 3% 3% 3%;
 }
@@ -219,6 +221,7 @@ p {
     justify-content: space-around;
     margin: 0 auto;
     padding: 5%;
+    
 
 }
 
@@ -237,6 +240,7 @@ p {
     justify-content: space-around;
     margin: 0 auto;
     padding: 5%;
+
 
 }
 
@@ -269,13 +273,13 @@ p {
 
 footer {
     background: black;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     
 }
 
 footer nav {
-    width: 100%;
+    width: 800px;
     padding: 20px 2%;
     font-size: 14px;
 }
