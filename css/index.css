@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: center;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -143,4 +143,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 1% 5%;
+}
+
+.header nav{
+    margin-left: 50%;
+    border: 2px solid red;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid red;
+
+}
+
+#jumbo {
+    width: 100%;
+    margin: 4% 0;
+}
+
+#box1 {
+    color: white;
+    background-color: teal;
+}
+
+#box2 {
+    color: white;
+    background-color: gold;
+}
+
+#box3 {
+    color: white;
+    background-color: cadetblue;
+}
+
+#box4 {
+    color: white;
+    background-color: coral;
+}
+
+#box5 {
+    color: white;
+    background-color: crimson;
+}
+
+#box6 {
+    color: white;
+    background-color: forestgreen;
+}
+
+#box7 {
+    color: white;
+    background-color: darkorchid;
+}
+
+#box8 {
+    color: white;
+    background-color: hotpink;
+}
+
+#box9 {
+    color: white;
+    background-color: indigo;
+}
+
+#box10 {
+    color: white;
+    background-color: dodgerblue;
 }
